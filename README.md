@@ -3,8 +3,8 @@
 
 ## Setup Development environment
 Required:
-* [Erlang 19.1](http://www.erlang.org/)
-* [Elixir 1.3.4](http://elixir-lang.org/)
+* [Erlang 19.2](http://www.erlang.org/)
+* [Elixir 1.4.0](http://elixir-lang.org/)
 * [Nodejs 6.9](https://nodejs.org/en/)
 * [postgresql 9.5](https://www.postgresql.org/)
 
