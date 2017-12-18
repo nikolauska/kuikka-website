@@ -25,10 +25,14 @@ defmodule KuikkaWeb.Router do
     get "/",                        HomeController, :index
 
     # Forums
-    get  "/forums",                 ForumController, :index
+    get  "/forums",                 ForumController, :topics
     post "/forums/new",             ForumController, :create
     get  "/forums/new",             ForumController, :new
-    get  "/forums/:id",             ForumController, :show
+    get  "/forums/categories",      ForumController, :categories
+    post "/forums/new",             ForumController, :create
+    get  "/forums/new",             ForumController, :new
+    get  "/forums/categories/:id",  ForumController, :category
+    get  "/forums/:id",             ForumController, :topic
     put  "/forums/:id/edit",        ForumController, :update
     get  "/forums/:id/edit",        ForumController, :edit
 

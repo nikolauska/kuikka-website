@@ -37,7 +37,6 @@ defmodule KuikkaWeb.Utils.Controller do
     else
       conn
       |> put_flash(:error, "invalid url")
-      |> put_status(406)
       |> redirect(to: to)
     end
   end
